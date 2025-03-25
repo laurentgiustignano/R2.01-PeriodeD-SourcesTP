@@ -2,10 +2,10 @@
 package tableur;
 
 public abstract class Cellule {
-  public abstract int évaluer();
+  public abstract int evaluer ();
 
   @Override
   public String toString() {
-    return Integer.toString(évaluer());
+    return Integer.toString(evaluer());
   }
 }

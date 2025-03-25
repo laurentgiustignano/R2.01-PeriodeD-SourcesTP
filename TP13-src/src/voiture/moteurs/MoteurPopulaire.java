@@ -14,12 +14,12 @@ public class MoteurPopulaire extends MoteurStandard {
   private static final int PAS_ACCEL = 10;
 
   @Override
-  public void accélérer(Voiture voiture) {
+  public void accelerer (Voiture voiture) {
     if (voiture.getVitesse() > SEUIL) {
       int v = voiture.getVitesse() + PAS_ACCEL;
       voiture.setVitesse(v < voiture.getVitesseMaximale() ? v : voiture
           .getVitesseMaximale());
     } else
-      super.accélérer(voiture);
+      super.accelerer(voiture);
   }
 }

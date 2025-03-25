@@ -49,16 +49,16 @@ public class Voiture {
     this.freins = freins;
   }
 
-  public final void réparerFreins() {
-    freins.réparer();
+  public final void reparerFreins() {
+    freins.reparer();
   }
 
   public final int getVitesseMaximale() {
     return moteur.getVitesseMaximale(this);
   }
 
-  public final void accélérer() {
-    moteur.accélérer(this);
+  public final void accelerer() {
+    moteur.accelerer(this);
   }
 
 }

@@ -11,7 +11,7 @@ public class CelluleConstante extends Cellule {
   }
   
   @Override
-  public int évaluer() {
+  public int evaluer () {
     return valeur;
   }
 }

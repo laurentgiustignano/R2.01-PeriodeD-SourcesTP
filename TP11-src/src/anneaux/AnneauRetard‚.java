@@ -1,17 +1,16 @@
 // AnneauRetardé.java
 package anneaux;
 
-public class AnneauRetardé extends Anneau {
+public class AnneauRetarde extends Anneau {
   private int xOld, yOld;
   private boolean parti;
 
-  public AnneauRetardé(int x, int y) {
+  public AnneauRetarde (int x, int y) {
     super(x, y);
     parti = false;
   }
 
-  @Override
-  public void déplacer(Anneau précédent, int xMax, int yMax) {
+  public void deplacer (Anneau précédent, int xMax, int yMax) {
     if (parti)
       placerA(xOld, yOld);
     xOld = précédent.getX();

@@ -5,7 +5,7 @@ import tableur.Cellule;
 
 public class CelluleVide extends Cellule {
   @Override
-  public int évaluer() {
+  public int evaluer () {
     return 0;
   }
   

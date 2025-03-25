@@ -13,7 +13,7 @@ public class FreinsStandard implements IFreins {
   }
 
   @Override
-  public void réparer() {
+  public void reparer () {
     // Ces freins ne sont jamais en panne
   }
 }

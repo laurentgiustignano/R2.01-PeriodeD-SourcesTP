@@ -15,7 +15,7 @@ public class MoteurStandard implements IMoteur {
   private static final int PAS_ACCEL = 25;
 
   @Override
-  public void accélérer(Voiture voiture) {
+  public void accelerer (Voiture voiture) {
     int v = voiture.getVitesse() + PAS_ACCEL;
     voiture.setVitesse(v < voiture.getVitesseMaximale() ? v : voiture
         .getVitesseMaximale());

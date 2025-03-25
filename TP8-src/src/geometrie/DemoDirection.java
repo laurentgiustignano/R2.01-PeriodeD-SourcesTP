@@ -1,13 +1,13 @@
-package géométrie;
+package geometrie;
 import java.util.EnumSet;
 
-public class DémoDirection {
+public class DemoDirection {
   public static void main(String[] args) {
     Direction d = Direction.EST;      // 8 directions possibles
     System.out.println(d);            // affichage possible
     d = d.inverser();                 // retourne la direction inverse
     System.out.println(d);
-    d = d.dériver(1);                 // changement aléatoire de direction
+    d = d.deriver(1);                 // changement aléatoire de direction
     System.out.println(d);
     System.out.println(d.inverser());
     

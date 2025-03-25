@@ -1,4 +1,6 @@
-package géométrie;
+
+package geometrie;
+
 import java.util.Random;
 
 public enum Direction {
@@ -40,7 +42,7 @@ public enum Direction {
    * @param marge la tolérance
    * @return la nouvelle direction
    */
-  public Direction dériver(int marge) {
+  public Direction deriver (int marge) {
     Random rd = new Random();
     int d = (8 + this.ordinal() + (rd.nextInt(marge * 2 + 1) - marge)) % 8;
     return Direction.values()[d];

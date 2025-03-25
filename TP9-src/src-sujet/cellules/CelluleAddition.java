@@ -17,7 +17,7 @@ public class CelluleAddition extends Cellule {
   }
   
   @Override
-  public int évaluer() {    
-    return t.get(c1).évaluer() + t.get(c2).évaluer();
+  public int evaluer () {
+    return t.get(c1).evaluer() + t.get(c2).evaluer();
   }
 }

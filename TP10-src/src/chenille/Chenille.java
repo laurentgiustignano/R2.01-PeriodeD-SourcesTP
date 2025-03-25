@@ -1,5 +1,4 @@
 package chenille;
-import static geometrie.Direction.EST;
 
 import anneaux.Anneau;
 import anneaux.Tete;

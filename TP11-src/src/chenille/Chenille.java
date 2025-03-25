@@ -13,11 +13,11 @@ public class Chenille {
       anneaux[i] = FabriqueAnneau.getAnneau(i, x - i, y);
   }
 
-  public void déplacer(int xMax, int yMax) {
+  public void deplacer (int xMax, int yMax) {
     // de la queue à la tête
     for (int i = anneaux.length - 1; i > 0; --i)
-      anneaux[i].déplacer(anneaux[i - 1], xMax, yMax);
-    anneaux[0].déplacer(null, xMax, yMax);
+      anneaux[i].deplacer(anneaux[i - 1], xMax, yMax);
+    anneaux[0].deplacer(null, xMax, yMax);
   }
 
   public void dessiner(char[][] t) {

@@ -10,7 +10,7 @@ public class Appli {
     int cpt = 0;
     v.setVitesse(0);
     while (v.getVitesse() < MAX) {
-      v.accélérer();
+      v.accelerer();
       ++cpt;
     }
     while (v.getVitesse() > 0)

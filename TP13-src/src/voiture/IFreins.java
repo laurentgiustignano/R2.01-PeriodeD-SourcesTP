@@ -4,6 +4,6 @@ public interface IFreins {
 
   void freiner(Voiture voiture);
 
-  void réparer();
+  void reparer ();
 
 }

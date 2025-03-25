@@ -21,7 +21,7 @@ public class Anneau {
     this.y = y;
   }
 
-  public void déplacer(Anneau précédent, int xMax, int yMax) {
+  public void deplacer (Anneau précédent, int xMax, int yMax) {
     placerA(précédent.getX(), précédent.getY());
   }
 

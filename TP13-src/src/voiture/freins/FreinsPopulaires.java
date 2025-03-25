@@ -19,7 +19,7 @@ public class FreinsPopulaires extends FreinsStandard {
   }
 
   @Override
-  public void réparer() {
+  public void reparer () {
     nbFreinagesViolents = 0;
   }
 }
